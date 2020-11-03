@@ -1,0 +1,12 @@
+{
+  "version": "2.0",
+  "functions": [ "Health", "UUIDServiceBus", "OperationsCreateWorkorder" ],
+  "logging": {
+    "applicationInsights": {
+      "samplingExcludedTypes": "Request",
+      "samplingSettings": {
+        "isEnabled": true
+      }
+    }
+  }
+}

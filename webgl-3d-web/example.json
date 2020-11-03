@@ -1,0 +1,2510 @@
+{
+  "diagram": "RTM001 fishbone diagram",
+  "spatialRef": {
+    "wkid": 102671,
+    "latestWkid": 3435,
+    "vcsWkid": 105703,
+    "latestVcsWkid": 6360
+  },
+  "sourceMapping": {
+    "Structure Boundary": 6,
+    "Electric Assembly": 11,
+    "Electric Junction": 12,
+    "Electric Device": 9,
+    "Associations": 1,
+    "Electric Line": 10
+  },
+  "containers": [
+    {
+      "id": 2,
+      "containerID": 0,
+      "assocSourceID": 6,
+      "assocGlobalID": "{4D431C9A-27CA-4638-9F61-F2E9DD2E0028}",
+      "userType": 0,
+      "geometry": {
+        "hasZ": true,
+        "hasM": true,
+        "rings": [
+          [
+            [
+              1028583.14737759158,
+              1866012.681716524065,
+              0,
+              null
+            ],
+            [
+              1028583.14737759158,
+              1866112.681844607,
+              0,
+              null
+            ],
+            [
+              1028683.14717759192,
+              1866112.681844607,
+              0,
+              null
+            ],
+            [
+              1028683.14717759192,
+              1866012.681716524065,
+              0,
+              null
+            ],
+            [
+              1028583.14737759158,
+              1866012.681716524065,
+              0,
+              null
+            ]
+          ]
+        ],
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {
+        "Object ID": 294,
+        "Asset group": "Electric Bay Boundary",
+        "Asset type": "Substation Bay",
+        "Association status": "Container",
+        "Subnetwork name": "Southside Unit 1 Bus 1::Southside Unit 1 Bus 2::RMT001",
+        "Creation date": 946684800000,
+        "Creator": "esri",
+        "Last update": 946684800000,
+        "Updated by": "esri",
+        "Global ID": "{4D431C9A-27CA-4638-9F61-F2E9DD2E0028}",
+        "name: Name": null,
+        "notes: General Notes": null,
+        "lifecyclestatus: Lifecycle Status": "In Service",
+        "retireddate: Date Retired": null,
+        "inservicedate: In Service Date": 1576619204000,
+        "nitrogenoxide: Amount of Nitrogenoxide Emitted": null,
+        "sulphurdioxide: Amount of Sulferdioxide Emitted": null,
+        "carbondioxide: Amount of Cabon Dioxide Emitted": null,
+        "powerunits: Maximum kW": null,
+        "Customer Count,Number of Units": null,
+        "devicecount: Number of features contained": null,
+        "installdate: Date Installed": null,
+        "spatialsource: Spatial Source": "Unknown",
+        "spatialconfidence: Spatial Confidence": "Unknown",
+        "ownedby: Owner of Equipment": "Our Agency",
+        "assetid: Asset ID": "5",
+        "maintby: Maintained by": "Our Agency"
+      }
+    }
+  ],
+  "junctions": [
+    {
+      "id": 18,
+      "containerID": 0,
+      "assocSourceID": 11,
+      "assocGlobalID": "{6EAF7869-C96E-4D51-BF36-F41D3ADEB746}",
+      "userType": 0,
+      "geometry": {
+        "x": 1032513.847521424294,
+        "y": 1866709.465099856257,
+        "z": 0,
+        "m": null,
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {
+        "Object ID": 313,
+        "Asset group": "Medium Voltage Switch Bank",
+        "Asset type": "Overhead Disconnect Switch",
+        "Association status": "Attachment and Container",
+        "Creation date": 946684800000,
+        "Creator": "esri",
+        "Last update": 946684800000,
+        "Updated by": "esri",
+        "Global ID": "{6EAF7869-C96E-4D51-BF36-F41D3ADEB746}",
+        "Supported subnetwork name": "RMT001::RMT003",
+        "Subnetwork name": "RMT001::RMT003",
+        "assetid: Asset ID": "83",
+        "configuration: Load Breaking": null,
+        "powerunits: Bank Load, Bank Load in kW, Bank kVA, Bank mVA, Maximum Amps, Maximum Breaking Amps, kVAR": null,
+        "configuration1: Gang Operated, High Side to Low Side Phase Shift, Series or Shunt": null,
+        "configuration2: High Side to Tertiary Phase Shift, Phase Operable": null,
+        "maximumboost: Maximum Voltage Boost": null,
+        "maximumbuck: Maximum Voltage Buck": null,
+        "devicecount: Number of features in the container": null,
+        "devicestatus: Bank Status": null,
+        "ctprimaryratio: Primary CT Ratio": null,
+        "ptratio: PT Ratio": null,
+        "ElectricUnits": null,
+        "ElectricUnits2": null,
+        "installdate: Date Installed": 1576619203000,
+        "retireddate: Date Retired": null,
+        "inservicedate: In Service Date": 1576619203000,
+        "spatialsource: Spatial Source": "Unknown",
+        "spatialconfidence: Spatial Confidence": "Unknown",
+        "ownedby: Owner of Equipment": "Our Agency",
+        "labeltext: Labeling String": null,
+        "symbolrotation: Symbol Rotation": 0,
+        "lifecyclestatus: Lifecycle Status": "In Service",
+        "notes: General Notes": null,
+        "maintby: Maintained by": "Our Agency"
+      }
+    },
+    {
+      "id": 3,
+      "containerID": 0,
+      "assocSourceID": 11,
+      "assocGlobalID": "{457DE260-9A3F-4FF3-AF75-129D6ADC846A}",
+      "userType": 0,
+      "geometry": {
+        "x": 1029279.930432841182,
+        "y": 1866062.681616522372,
+        "z": 0,
+        "m": null,
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {
+        "Object ID": 314,
+        "Asset group": "Medium Voltage Switch Bank",
+        "Asset type": "Overhead Disconnect Switch",
+        "Association status": "Attachment and Container",
+        "Creation date": 946684800000,
+        "Creator": "esri",
+        "Last update": 946684800000,
+        "Updated by": "esri",
+        "Global ID": "{457DE260-9A3F-4FF3-AF75-129D6ADC846A}",
+        "Supported subnetwork name": "RMT001",
+        "Subnetwork name": "RMT001",
+        "assetid: Asset ID": "87",
+        "configuration: Load Breaking": null,
+        "powerunits: Bank Load, Bank Load in kW, Bank kVA, Bank mVA, Maximum Amps, Maximum Breaking Amps, kVAR": null,
+        "configuration1: Gang Operated, High Side to Low Side Phase Shift, Series or Shunt": null,
+        "configuration2: High Side to Tertiary Phase Shift, Phase Operable": null,
+        "maximumboost: Maximum Voltage Boost": null,
+        "maximumbuck: Maximum Voltage Buck": null,
+        "devicecount: Number of features in the container": null,
+        "devicestatus: Bank Status": null,
+        "ctprimaryratio: Primary CT Ratio": null,
+        "ptratio: PT Ratio": null,
+        "ElectricUnits": null,
+        "ElectricUnits2": null,
+        "installdate: Date Installed": 1576619203000,
+        "retireddate: Date Retired": null,
+        "inservicedate: In Service Date": 1576619203000,
+        "spatialsource: Spatial Source": "Unknown",
+        "spatialconfidence: Spatial Confidence": "Unknown",
+        "ownedby: Owner of Equipment": "Our Agency",
+        "labeltext: Labeling String": null,
+        "symbolrotation: Symbol Rotation": 0,
+        "lifecyclestatus: Lifecycle Status": "In Service",
+        "notes: General Notes": null,
+        "maintby: Maintained by": "Our Agency"
+      }
+    },
+    {
+      "id": 22,
+      "containerID": 0,
+      "assocSourceID": 11,
+      "assocGlobalID": "{C6DE1D80-B8FF-4DD2-8A4A-E6FB8FAE35E2}",
+      "userType": 0,
+      "geometry": {
+        "x": 1035100.980798590928,
+        "y": 1865415.8984612748,
+        "z": 0,
+        "m": null,
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {
+        "Object ID": 315,
+        "Asset group": "Medium Voltage Switch Bank",
+        "Asset type": "Overhead Disconnect Switch",
+        "Association status": "Attachment and Container",
+        "Creation date": 946684800000,
+        "Creator": "esri",
+        "Last update": 946684800000,
+        "Updated by": "esri",
+        "Global ID": "{C6DE1D80-B8FF-4DD2-8A4A-E6FB8FAE35E2}",
+        "Supported subnetwork name": "RMT001",
+        "Subnetwork name": "RMT001",
+        "assetid: Asset ID": "91",
+        "configuration: Load Breaking": null,
+        "powerunits: Bank Load, Bank Load in kW, Bank kVA, Bank mVA, Maximum Amps, Maximum Breaking Amps, kVAR": null,
+        "configuration1: Gang Operated, High Side to Low Side Phase Shift, Series or Shunt": null,
+        "configuration2: High Side to Tertiary Phase Shift, Phase Operable": null,
+        "maximumboost: Maximum Voltage Boost": null,
+        "maximumbuck: Maximum Voltage Buck": null,
+        "devicecount: Number of features in the container": null,
+        "devicestatus: Bank Status": null,
+        "ctprimaryratio: Primary CT Ratio": null,
+        "ptratio: PT Ratio": null,
+        "ElectricUnits": null,
+        "ElectricUnits2": null,
+        "installdate: Date Installed": 1576619203000,
+        "retireddate: Date Retired": null,
+        "inservicedate: In Service Date": 1576619203000,
+        "spatialsource: Spatial Source": "Unknown",
+        "spatialconfidence: Spatial Confidence": "Unknown",
+        "ownedby: Owner of Equipment": "Our Agency",
+        "labeltext: Labeling String": null,
+        "symbolrotation: Symbol Rotation": 0,
+        "lifecyclestatus: Lifecycle Status": "In Service",
+        "notes: General Notes": null,
+        "maintby: Maintained by": "Our Agency"
+      }
+    },
+    {
+      "id": 14,
+      "containerID": 0,
+      "assocSourceID": 11,
+      "assocGlobalID": "{C7FEE63A-DBAB-4B74-81AE-4D02F3983F48}",
+      "userType": 0,
+      "geometry": {
+        "x": 1033160.630676675588,
+        "y": 1865415.8984612748,
+        "z": 0,
+        "m": null,
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {
+        "Object ID": 316,
+        "Asset group": "Medium Voltage Switch Bank",
+        "Asset type": "Overhead Disconnect Switch",
+        "Association status": "Attachment and Container",
+        "Creation date": 946684800000,
+        "Creator": "esri",
+        "Last update": 946684800000,
+        "Updated by": "esri",
+        "Global ID": "{C7FEE63A-DBAB-4B74-81AE-4D02F3983F48}",
+        "Supported subnetwork name": "RMT001",
+        "Subnetwork name": "RMT001",
+        "assetid: Asset ID": "89",
+        "configuration: Load Breaking": null,
+        "powerunits: Bank Load, Bank Load in kW, Bank kVA, Bank mVA, Maximum Amps, Maximum Breaking Amps, kVAR": null,
+        "configuration1: Gang Operated, High Side to Low Side Phase Shift, Series or Shunt": null,
+        "configuration2: High Side to Tertiary Phase Shift, Phase Operable": null,
+        "maximumboost: Maximum Voltage Boost": null,
+        "maximumbuck: Maximum Voltage Buck": null,
+        "devicecount: Number of features in the container": null,
+        "devicestatus: Bank Status": null,
+        "ctprimaryratio: Primary CT Ratio": null,
+        "ptratio: PT Ratio": null,
+        "ElectricUnits": null,
+        "ElectricUnits2": null,
+        "installdate: Date Installed": 1576619203000,
+        "retireddate: Date Retired": null,
+        "inservicedate: In Service Date": 1576619203000,
+        "spatialsource: Spatial Source": "Unknown",
+        "spatialconfidence: Spatial Confidence": "Unknown",
+        "ownedby: Owner of Equipment": "Our Agency",
+        "labeltext: Labeling String": null,
+        "symbolrotation: Symbol Rotation": 0,
+        "lifecyclestatus: Lifecycle Status": "In Service",
+        "notes: General Notes": null,
+        "maintby: Maintained by": "Our Agency"
+      }
+    },
+    {
+      "id": 15,
+      "containerID": 0,
+      "assocSourceID": 11,
+      "assocGlobalID": "{DEE4DF68-8C75-457E-983A-EF52A44A78C2}",
+      "userType": 0,
+      "geometry": {
+        "x": 1033807.414160009474,
+        "y": 1865415.8984612748,
+        "z": 0,
+        "m": null,
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {
+        "Object ID": 317,
+        "Asset group": "Medium Voltage Switch Bank",
+        "Asset type": "Overhead Disconnect Switch",
+        "Association status": "Attachment and Container",
+        "Creation date": 946684800000,
+        "Creator": "esri",
+        "Last update": 946684800000,
+        "Updated by": "esri",
+        "Global ID": "{DEE4DF68-8C75-457E-983A-EF52A44A78C2}",
+        "Supported subnetwork name": "RMT001",
+        "Subnetwork name": "RMT001",
+        "assetid: Asset ID": "90",
+        "configuration: Load Breaking": null,
+        "powerunits: Bank Load, Bank Load in kW, Bank kVA, Bank mVA, Maximum Amps, Maximum Breaking Amps, kVAR": null,
+        "configuration1: Gang Operated, High Side to Low Side Phase Shift, Series or Shunt": null,
+        "configuration2: High Side to Tertiary Phase Shift, Phase Operable": null,
+        "maximumboost: Maximum Voltage Boost": null,
+        "maximumbuck: Maximum Voltage Buck": null,
+        "devicecount: Number of features in the container": null,
+        "devicestatus: Bank Status": null,
+        "ctprimaryratio: Primary CT Ratio": null,
+        "ptratio: PT Ratio": null,
+        "ElectricUnits": null,
+        "ElectricUnits2": null,
+        "installdate: Date Installed": 1576619203000,
+        "retireddate: Date Retired": null,
+        "inservicedate: In Service Date": 1576619203000,
+        "spatialsource: Spatial Source": "Unknown",
+        "spatialconfidence: Spatial Confidence": "Unknown",
+        "ownedby: Owner of Equipment": "Our Agency",
+        "labeltext: Labeling String": null,
+        "symbolrotation: Symbol Rotation": 0,
+        "lifecyclestatus: Lifecycle Status": "In Service",
+        "notes: General Notes": null,
+        "maintby: Maintained by": "Our Agency"
+      }
+    },
+    {
+      "id": 7,
+      "containerID": 0,
+      "assocSourceID": 11,
+      "assocGlobalID": "{2F56544C-EC4F-4E8A-81E7-F2E958F3E1F3}",
+      "userType": 0,
+      "geometry": {
+        "x": 1030573.497399509,
+        "y": 1865415.8984612748,
+        "z": 0,
+        "m": null,
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {
+        "Object ID": 318,
+        "Asset group": "Medium Voltage Switch Bank",
+        "Asset type": "Overhead Disconnect Switch",
+        "Association status": "Attachment and Container",
+        "Creation date": 946684800000,
+        "Creator": "esri",
+        "Last update": 946684800000,
+        "Updated by": "esri",
+        "Global ID": "{2F56544C-EC4F-4E8A-81E7-F2E958F3E1F3}",
+        "Supported subnetwork name": "RMT001",
+        "Subnetwork name": "RMT001",
+        "assetid: Asset ID": "85",
+        "configuration: Load Breaking": null,
+        "powerunits: Bank Load, Bank Load in kW, Bank kVA, Bank mVA, Maximum Amps, Maximum Breaking Amps, kVAR": null,
+        "configuration1: Gang Operated, High Side to Low Side Phase Shift, Series or Shunt": null,
+        "configuration2: High Side to Tertiary Phase Shift, Phase Operable": null,
+        "maximumboost: Maximum Voltage Boost": null,
+        "maximumbuck: Maximum Voltage Buck": null,
+        "devicecount: Number of features in the container": null,
+        "devicestatus: Bank Status": null,
+        "ctprimaryratio: Primary CT Ratio": null,
+        "ptratio: PT Ratio": null,
+        "ElectricUnits": null,
+        "ElectricUnits2": null,
+        "installdate: Date Installed": 1576619203000,
+        "retireddate: Date Retired": null,
+        "inservicedate: In Service Date": 1576619203000,
+        "spatialsource: Spatial Source": "Unknown",
+        "spatialconfidence: Spatial Confidence": "Unknown",
+        "ownedby: Owner of Equipment": "Our Agency",
+        "labeltext: Labeling String": null,
+        "symbolrotation: Symbol Rotation": 0,
+        "lifecyclestatus: Lifecycle Status": "In Service",
+        "notes: General Notes": null,
+        "maintby: Maintained by": "Our Agency"
+      }
+    },
+    {
+      "id": 11,
+      "containerID": 0,
+      "assocSourceID": 11,
+      "assocGlobalID": "{33C4EAFF-6B42-4543-BAB3-DB50B4C26C39}",
+      "userType": 0,
+      "geometry": {
+        "x": 1032513.847521424294,
+        "y": 1864769.114977940917,
+        "z": 0,
+        "m": null,
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {
+        "Object ID": 319,
+        "Asset group": "Medium Voltage Switch Bank",
+        "Asset type": "Overhead Disconnect Switch",
+        "Association status": "Attachment and Container",
+        "Creation date": 946684800000,
+        "Creator": "esri",
+        "Last update": 946684800000,
+        "Updated by": "esri",
+        "Global ID": "{33C4EAFF-6B42-4543-BAB3-DB50B4C26C39}",
+        "Supported subnetwork name": "RMT001",
+        "Subnetwork name": "RMT001",
+        "assetid: Asset ID": "93",
+        "configuration: Load Breaking": null,
+        "powerunits: Bank Load, Bank Load in kW, Bank kVA, Bank mVA, Maximum Amps, Maximum Breaking Amps, kVAR": null,
+        "configuration1: Gang Operated, High Side to Low Side Phase Shift, Series or Shunt": null,
+        "configuration2: High Side to Tertiary Phase Shift, Phase Operable": null,
+        "maximumboost: Maximum Voltage Boost": null,
+        "maximumbuck: Maximum Voltage Buck": null,
+        "devicecount: Number of features in the container": null,
+        "devicestatus: Bank Status": null,
+        "ctprimaryratio: Primary CT Ratio": null,
+        "ptratio: PT Ratio": null,
+        "ElectricUnits": null,
+        "ElectricUnits2": null,
+        "installdate: Date Installed": 1576619203000,
+        "retireddate: Date Retired": null,
+        "inservicedate: In Service Date": 1576619203000,
+        "spatialsource: Spatial Source": "Unknown",
+        "spatialconfidence: Spatial Confidence": "Unknown",
+        "ownedby: Owner of Equipment": "Our Agency",
+        "labeltext: Labeling String": null,
+        "symbolrotation: Symbol Rotation": 0,
+        "lifecyclestatus: Lifecycle Status": "In Service",
+        "notes: General Notes": null,
+        "maintby: Maintained by": "Our Agency"
+      }
+    },
+    {
+      "id": 20,
+      "containerID": 0,
+      "assocSourceID": 11,
+      "assocGlobalID": "{45330DF3-E148-4ADE-9A79-5DF1F18B9AF8}",
+      "userType": 0,
+      "geometry": {
+        "x": 1033807.414160009474,
+        "y": 1866062.681616522372,
+        "z": 0,
+        "m": null,
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {
+        "Object ID": 320,
+        "Asset group": "Medium Voltage Switch Bank",
+        "Asset type": "Overhead Disconnect Switch",
+        "Association status": "Attachment and Container",
+        "Creation date": 946684800000,
+        "Creator": "esri",
+        "Last update": 946684800000,
+        "Updated by": "esri",
+        "Global ID": "{45330DF3-E148-4ADE-9A79-5DF1F18B9AF8}",
+        "Supported subnetwork name": "RMT001",
+        "Subnetwork name": "RMT001",
+        "assetid: Asset ID": "92",
+        "configuration: Load Breaking": null,
+        "powerunits: Bank Load, Bank Load in kW, Bank kVA, Bank mVA, Maximum Amps, Maximum Breaking Amps, kVAR": null,
+        "configuration1: Gang Operated, High Side to Low Side Phase Shift, Series or Shunt": null,
+        "configuration2: High Side to Tertiary Phase Shift, Phase Operable": null,
+        "maximumboost: Maximum Voltage Boost": null,
+        "maximumbuck: Maximum Voltage Buck": null,
+        "devicecount: Number of features in the container": null,
+        "devicestatus: Bank Status": null,
+        "ctprimaryratio: Primary CT Ratio": null,
+        "ptratio: PT Ratio": null,
+        "ElectricUnits": null,
+        "ElectricUnits2": null,
+        "installdate: Date Installed": 1576619203000,
+        "retireddate: Date Retired": null,
+        "inservicedate: In Service Date": 1576619203000,
+        "spatialsource: Spatial Source": "Unknown",
+        "spatialconfidence: Spatial Confidence": "Unknown",
+        "ownedby: Owner of Equipment": "Our Agency",
+        "labeltext: Labeling String": null,
+        "symbolrotation: Symbol Rotation": 0,
+        "lifecyclestatus: Lifecycle Status": "In Service",
+        "notes: General Notes": null,
+        "maintby: Maintained by": "Our Agency"
+      }
+    },
+    {
+      "id": 8,
+      "containerID": 0,
+      "assocSourceID": 11,
+      "assocGlobalID": "{2BE16552-F804-4DDC-B626-01B46F311731}",
+      "userType": 0,
+      "geometry": {
+        "x": 1031220.280554760247,
+        "y": 1865415.8984612748,
+        "z": 0,
+        "m": null,
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {
+        "Object ID": 321,
+        "Asset group": "Medium Voltage Switch Bank",
+        "Asset type": "Overhead Disconnect Switch",
+        "Association status": "Attachment and Container",
+        "Creation date": 946684800000,
+        "Creator": "esri",
+        "Last update": 946684800000,
+        "Updated by": "esri",
+        "Global ID": "{2BE16552-F804-4DDC-B626-01B46F311731}",
+        "Supported subnetwork name": "RMT001",
+        "Subnetwork name": "RMT001",
+        "assetid: Asset ID": "86",
+        "configuration: Load Breaking": null,
+        "powerunits: Bank Load, Bank Load in kW, Bank kVA, Bank mVA, Maximum Amps, Maximum Breaking Amps, kVAR": null,
+        "configuration1: Gang Operated, High Side to Low Side Phase Shift, Series or Shunt": null,
+        "configuration2: High Side to Tertiary Phase Shift, Phase Operable": null,
+        "maximumboost: Maximum Voltage Boost": null,
+        "maximumbuck: Maximum Voltage Buck": null,
+        "devicecount: Number of features in the container": null,
+        "devicestatus: Bank Status": null,
+        "ctprimaryratio: Primary CT Ratio": null,
+        "ptratio: PT Ratio": null,
+        "ElectricUnits": null,
+        "ElectricUnits2": null,
+        "installdate: Date Installed": 1576619203000,
+        "retireddate: Date Retired": null,
+        "inservicedate: In Service Date": 1576619203000,
+        "spatialsource: Spatial Source": "Unknown",
+        "spatialconfidence: Spatial Confidence": "Unknown",
+        "ownedby: Owner of Equipment": "Our Agency",
+        "labeltext: Labeling String": null,
+        "symbolrotation: Symbol Rotation": 0,
+        "lifecyclestatus: Lifecycle Status": "In Service",
+        "notes: General Notes": null,
+        "maintby: Maintained by": "Our Agency"
+      }
+    },
+    {
+      "id": 10,
+      "containerID": 0,
+      "assocSourceID": 11,
+      "assocGlobalID": "{807FB224-9567-4CC5-8C5B-C8C6EFEB028F}",
+      "userType": 0,
+      "geometry": {
+        "x": 1032513.847521424294,
+        "y": 1865415.8984612748,
+        "z": 0,
+        "m": null,
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {
+        "Object ID": 324,
+        "Asset group": "Medium Voltage Switch Bank",
+        "Asset type": "Overhead Disconnect Switch",
+        "Association status": "Attachment and Container",
+        "Creation date": 946684800000,
+        "Creator": "esri",
+        "Last update": 946684800000,
+        "Updated by": "esri",
+        "Global ID": "{807FB224-9567-4CC5-8C5B-C8C6EFEB028F}",
+        "Supported subnetwork name": "RMT001",
+        "Subnetwork name": "RMT001",
+        "assetid: Asset ID": "88",
+        "configuration: Load Breaking": null,
+        "powerunits: Bank Load, Bank Load in kW, Bank kVA, Bank mVA, Maximum Amps, Maximum Breaking Amps, kVAR": null,
+        "configuration1: Gang Operated, High Side to Low Side Phase Shift, Series or Shunt": null,
+        "configuration2: High Side to Tertiary Phase Shift, Phase Operable": null,
+        "maximumboost: Maximum Voltage Boost": null,
+        "maximumbuck: Maximum Voltage Buck": null,
+        "devicecount: Number of features in the container": null,
+        "devicestatus: Bank Status": null,
+        "ctprimaryratio: Primary CT Ratio": null,
+        "ptratio: PT Ratio": null,
+        "ElectricUnits": null,
+        "ElectricUnits2": null,
+        "installdate: Date Installed": 1576619203000,
+        "retireddate: Date Retired": null,
+        "inservicedate: In Service Date": 1576619203000,
+        "spatialsource: Spatial Source": "Unknown",
+        "spatialconfidence: Spatial Confidence": "Unknown",
+        "ownedby: Owner of Equipment": "Our Agency",
+        "labeltext: Labeling String": null,
+        "symbolrotation: Symbol Rotation": 0,
+        "lifecyclestatus: Lifecycle Status": "In Service",
+        "notes: General Notes": null,
+        "maintby: Maintained by": "Our Agency"
+      }
+    },
+    {
+      "id": 4,
+      "containerID": 0,
+      "assocSourceID": 11,
+      "assocGlobalID": "{FCF0D5CC-4644-467A-9266-931D67FACB0B}",
+      "userType": 0,
+      "geometry": {
+        "x": 1031220.280554760247,
+        "y": 1866709.465099856257,
+        "z": 0,
+        "m": null,
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {
+        "Object ID": 350,
+        "Asset group": "Medium Voltage Switch Bank",
+        "Asset type": "Pad Mounted Switch",
+        "Association status": "Container",
+        "Creation date": 946684800000,
+        "Creator": "esri",
+        "Last update": 946684800000,
+        "Updated by": "esri",
+        "Global ID": "{FCF0D5CC-4644-467A-9266-931D67FACB0B}",
+        "Supported subnetwork name": "RMT001",
+        "Subnetwork name": "RMT001",
+        "assetid: Asset ID": "58",
+        "configuration: Load Breaking": null,
+        "powerunits: Bank Load, Bank Load in kW, Bank kVA, Bank mVA, Maximum Amps, Maximum Breaking Amps, kVAR": null,
+        "configuration1: Gang Operated, High Side to Low Side Phase Shift, Series or Shunt": null,
+        "configuration2: High Side to Tertiary Phase Shift, Phase Operable": null,
+        "maximumboost: Maximum Voltage Boost": null,
+        "maximumbuck: Maximum Voltage Buck": null,
+        "devicecount: Number of features in the container": null,
+        "devicestatus: Bank Status": null,
+        "ctprimaryratio: Primary CT Ratio": null,
+        "ptratio: PT Ratio": null,
+        "ElectricUnits": null,
+        "ElectricUnits2": null,
+        "installdate: Date Installed": 1576619204000,
+        "retireddate: Date Retired": null,
+        "inservicedate: In Service Date": 1576619204000,
+        "spatialsource: Spatial Source": "Unknown",
+        "spatialconfidence: Spatial Confidence": "Unknown",
+        "ownedby: Owner of Equipment": "Our Agency",
+        "labeltext: Labeling String": null,
+        "symbolrotation: Symbol Rotation": 0,
+        "lifecyclestatus: Lifecycle Status": "In Service",
+        "notes: General Notes": null,
+        "maintby: Maintained by": "Our Agency"
+      }
+    },
+    {
+      "id": 5,
+      "containerID": 0,
+      "assocSourceID": 12,
+      "assocGlobalID": "{BF741324-A46D-44E5-A70D-04BC12880B9B}",
+      "userType": 0,
+      "geometry": {
+        "x": 1029926.713916175067,
+        "y": 1866062.681616522372,
+        "z": 0,
+        "m": null,
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {
+        "Object ID": 1741,
+        "Asset group": "Medium Voltage Connection Point",
+        "Asset type": "Overhead Tap",
+        "Association status": "Connectivity",
+        "Is connected": "True",
+        "Creation date": 946684800000,
+        "Creator": "esri",
+        "Last update": 946684800000,
+        "Updated by": "esri",
+        "Global ID": "{BF741324-A46D-44E5-A70D-04BC12880B9B}",
+        "Subnetwork name": "RMT001",
+        "Supported subnetwork name": "Unknown",
+        "assetid: Asset Identifier": "48",
+        "nominalvoltage: Nominal Operation Voltage (L-L)": "12.47 kV",
+        "maxvoltage: Maximum Operating Voltage (L-L)": "15 kV",
+        "nominalvoltagelg: Nominal Operation Voltage (L-G)": "7.2 kV",
+        "phasesnormal: Phases Normal": "ABC",
+        "phasescurrent: User Assigned Phases": null,
+        "phasessummer: Summer Configuration Phases": "ABC",
+        "phaseswinter: Winter Configuration Phases": "ABC",
+        "phasesplan: Planned Phases": "ABC",
+        "phasesenergized: Phases Propagated": "ABC",
+        "phasessubstituted: Phases Substituted": null,
+        "phasefrequency: Phase Frequency": "60 hz",
+        "numphasesconstructed: Number of phases built": "Three Phase",
+        "lifecyclestatus: Lifecycle Status": "In Service",
+        "installdate: Date Installed": 1576619218000,
+        "retireddate: Date Retired": null,
+        "inservicedate: In Service Date": 1576619218000,
+        "Equipment Maker": null,
+        "spatialsource: Spatial Source": "Unknown",
+        "spatialconfidence: Spatial Confidence": "Unknown",
+        "grounding: System Grounding": "Wye",
+        "notes: General Notes": null,
+        "symbolrotation: Symbol Rotation": 0,
+        "maintby: Maintained by": "Our Agency",
+        "ownedby: Owned by": "Our Agency"
+      }
+    },
+    {
+      "id": 13,
+      "containerID": 0,
+      "assocSourceID": 12,
+      "assocGlobalID": "{54D91F24-09C8-4884-BE35-C508274ED7BC}",
+      "userType": 0,
+      "geometry": {
+        "x": 1031220.280554760247,
+        "y": 1866062.681616522372,
+        "z": 0,
+        "m": null,
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {
+        "Object ID": 1751,
+        "Asset group": "Medium Voltage Connection Point",
+        "Asset type": "Overhead Tap",
+        "Association status": "Connectivity",
+        "Is connected": "True",
+        "Creation date": 946684800000,
+        "Creator": "esri",
+        "Last update": 946684800000,
+        "Updated by": "esri",
+        "Global ID": "{54D91F24-09C8-4884-BE35-C508274ED7BC}",
+        "Subnetwork name": "RMT001",
+        "Supported subnetwork name": "Unknown",
+        "assetid: Asset Identifier": "1",
+        "nominalvoltage: Nominal Operation Voltage (L-L)": "12.47 kV",
+        "maxvoltage: Maximum Operating Voltage (L-L)": "15 kV",
+        "nominalvoltagelg: Nominal Operation Voltage (L-G)": "7.2 kV",
+        "phasesnormal: Phases Normal": "ABC",
+        "phasescurrent: User Assigned Phases": null,
+        "phasessummer: Summer Configuration Phases": "ABC",
+        "phaseswinter: Winter Configuration Phases": "ABC",
+        "phasesplan: Planned Phases": "ABC",
+        "phasesenergized: Phases Propagated": "ABC",
+        "phasessubstituted: Phases Substituted": null,
+        "phasefrequency: Phase Frequency": "60 hz",
+        "numphasesconstructed: Number of phases built": "Three Phase",
+        "lifecyclestatus: Lifecycle Status": "In Service",
+        "installdate: Date Installed": 1576619218000,
+        "retireddate: Date Retired": null,
+        "inservicedate: In Service Date": 1576619218000,
+        "Equipment Maker": null,
+        "spatialsource: Spatial Source": "Unknown",
+        "spatialconfidence: Spatial Confidence": "Unknown",
+        "grounding: System Grounding": "Wye",
+        "notes: General Notes": null,
+        "symbolrotation: Symbol Rotation": 0,
+        "maintby: Maintained by": "Our Agency",
+        "ownedby: Owned by": "Our Agency"
+      }
+    },
+    {
+      "id": 6,
+      "containerID": 0,
+      "assocSourceID": 12,
+      "assocGlobalID": "{361F6264-B041-4C1A-AE0A-83D484102671}",
+      "userType": 0,
+      "geometry": {
+        "x": 1030573.497399509,
+        "y": 1866062.681616522372,
+        "z": 0,
+        "m": null,
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {
+        "Object ID": 1770,
+        "Asset group": "Medium Voltage Connection Point",
+        "Asset type": "Overhead Tap",
+        "Association status": "Connectivity",
+        "Is connected": "True",
+        "Creation date": 946684800000,
+        "Creator": "esri",
+        "Last update": 946684800000,
+        "Updated by": "esri",
+        "Global ID": "{361F6264-B041-4C1A-AE0A-83D484102671}",
+        "Subnetwork name": "RMT001",
+        "Supported subnetwork name": "Unknown",
+        "assetid: Asset Identifier": "159",
+        "nominalvoltage: Nominal Operation Voltage (L-L)": "12.47 kV",
+        "maxvoltage: Maximum Operating Voltage (L-L)": "15 kV",
+        "nominalvoltagelg: Nominal Operation Voltage (L-G)": "7.2 kV",
+        "phasesnormal: Phases Normal": "ABC",
+        "phasescurrent: User Assigned Phases": null,
+        "phasessummer: Summer Configuration Phases": "ABC",
+        "phaseswinter: Winter Configuration Phases": "ABC",
+        "phasesplan: Planned Phases": "ABC",
+        "phasesenergized: Phases Propagated": "ABC",
+        "phasessubstituted: Phases Substituted": null,
+        "phasefrequency: Phase Frequency": "60 hz",
+        "numphasesconstructed: Number of phases built": "Three Phase",
+        "lifecyclestatus: Lifecycle Status": "In Service",
+        "installdate: Date Installed": 1576619238000,
+        "retireddate: Date Retired": null,
+        "inservicedate: In Service Date": 1576619238000,
+        "Equipment Maker": null,
+        "spatialsource: Spatial Source": "Unknown",
+        "spatialconfidence: Spatial Confidence": "Unknown",
+        "grounding: System Grounding": "Wye",
+        "notes: General Notes": null,
+        "symbolrotation: Symbol Rotation": 0,
+        "maintby: Maintained by": "Our Agency",
+        "ownedby: Owned by": "Our Agency"
+      }
+    },
+    {
+      "id": 9,
+      "containerID": 0,
+      "assocSourceID": 12,
+      "assocGlobalID": "{74903618-8081-4F3F-98B6-139D46D987D1}",
+      "userType": 0,
+      "geometry": {
+        "x": 1031867.064038094133,
+        "y": 1865415.8984612748,
+        "z": 0,
+        "m": null,
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {
+        "Object ID": 3681,
+        "Asset group": "Medium Voltage Line End",
+        "Asset type": "Overhead Line End",
+        "Association status": "Attachment",
+        "Is connected": "True",
+        "Creation date": 946684800000,
+        "Creator": "esri",
+        "Last update": 946684800000,
+        "Updated by": "esri",
+        "Global ID": "{74903618-8081-4F3F-98B6-139D46D987D1}",
+        "Subnetwork name": "RMT001",
+        "Supported subnetwork name": "Unknown",
+        "assetid: Asset Identifier": "640",
+        "nominalvoltage: Nominal Operation Voltage (L-L)": "12.47 kV",
+        "maxvoltage: Maximum Operating Voltage (L-L)": "15 kV",
+        "nominalvoltagelg: Nominal Operation Voltage (L-G)": "7.2 kV",
+        "phasesnormal: Phases Normal": "ABC",
+        "phasescurrent: User Assigned Phases": null,
+        "phasessummer: Summer Configuration Phases": "ABC",
+        "phaseswinter: Winter Configuration Phases": "ABC",
+        "phasesplan: Planned Phases": "ABC",
+        "phasesenergized: Phases Propagated": "ABC",
+        "phasessubstituted: Phases Substituted": null,
+        "phasefrequency: Phase Frequency": "60 hz",
+        "numphasesconstructed: Number of phases built": "Three Phase",
+        "lifecyclestatus: Lifecycle Status": "In Service",
+        "installdate: Date Installed": 1576619237000,
+        "retireddate: Date Retired": null,
+        "inservicedate: In Service Date": 1576619237000,
+        "Equipment Maker": null,
+        "spatialsource: Spatial Source": "Unknown",
+        "spatialconfidence: Spatial Confidence": "Unknown",
+        "grounding: System Grounding": "Wye",
+        "notes: General Notes": null,
+        "symbolrotation: Symbol Rotation": 0,
+        "maintby: Maintained by": "Our Agency",
+        "ownedby: Owned by": "Our Agency"
+      }
+    },
+    {
+      "id": 19,
+      "containerID": 0,
+      "assocSourceID": 12,
+      "assocGlobalID": "{5ED5C0D4-A1C7-4F81-941C-426DA3D11E75}",
+      "userType": 0,
+      "geometry": {
+        "x": 1033160.630676675588,
+        "y": 1866062.681616522372,
+        "z": 0,
+        "m": null,
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {
+        "Object ID": 3737,
+        "Asset group": "Medium Voltage Line End",
+        "Asset type": "Overhead Line End",
+        "Association status": "Attachment",
+        "Is connected": "True",
+        "Creation date": 946684800000,
+        "Creator": "esri",
+        "Last update": 946684800000,
+        "Updated by": "esri",
+        "Global ID": "{5ED5C0D4-A1C7-4F81-941C-426DA3D11E75}",
+        "Subnetwork name": "RMT001",
+        "Supported subnetwork name": "Unknown",
+        "assetid: Asset Identifier": "633",
+        "nominalvoltage: Nominal Operation Voltage (L-L)": "12.47 kV",
+        "maxvoltage: Maximum Operating Voltage (L-L)": "15 kV",
+        "nominalvoltagelg: Nominal Operation Voltage (L-G)": "7.2 kV",
+        "phasesnormal: Phases Normal": "ABC",
+        "phasescurrent: User Assigned Phases": null,
+        "phasessummer: Summer Configuration Phases": "ABC",
+        "phaseswinter: Winter Configuration Phases": "ABC",
+        "phasesplan: Planned Phases": "ABC",
+        "phasesenergized: Phases Propagated": "ABC",
+        "phasessubstituted: Phases Substituted": null,
+        "phasefrequency: Phase Frequency": "60 hz",
+        "numphasesconstructed: Number of phases built": "Three Phase",
+        "lifecyclestatus: Lifecycle Status": "In Service",
+        "installdate: Date Installed": 1576619238000,
+        "retireddate: Date Retired": null,
+        "inservicedate: In Service Date": 1576619238000,
+        "Equipment Maker": null,
+        "spatialsource: Spatial Source": "Unknown",
+        "spatialconfidence: Spatial Confidence": "Unknown",
+        "grounding: System Grounding": "Wye",
+        "notes: General Notes": null,
+        "symbolrotation: Symbol Rotation": 0,
+        "maintby: Maintained by": "Our Agency",
+        "ownedby: Owned by": "Our Agency"
+      }
+    },
+    {
+      "id": 21,
+      "containerID": 0,
+      "assocSourceID": 12,
+      "assocGlobalID": "{6A17F4FA-1245-4060-89A9-A518218D24E4}",
+      "userType": 0,
+      "geometry": {
+        "x": 1034454.197315260768,
+        "y": 1866062.681616522372,
+        "z": 0,
+        "m": null,
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {
+        "Object ID": 3783,
+        "Asset group": "Medium Voltage Line End",
+        "Asset type": "Overhead Line End",
+        "Association status": "Attachment",
+        "Is connected": "True",
+        "Creation date": 946684800000,
+        "Creator": "esri",
+        "Last update": 946684800000,
+        "Updated by": "esri",
+        "Global ID": "{6A17F4FA-1245-4060-89A9-A518218D24E4}",
+        "Subnetwork name": "RMT001",
+        "Supported subnetwork name": "Unknown",
+        "assetid: Asset Identifier": "282",
+        "nominalvoltage: Nominal Operation Voltage (L-L)": "12.47 kV",
+        "maxvoltage: Maximum Operating Voltage (L-L)": "15 kV",
+        "nominalvoltagelg: Nominal Operation Voltage (L-G)": "7.2 kV",
+        "phasesnormal: Phases Normal": "ABC",
+        "phasescurrent: User Assigned Phases": null,
+        "phasessummer: Summer Configuration Phases": "ABC",
+        "phaseswinter: Winter Configuration Phases": "ABC",
+        "phasesplan: Planned Phases": "ABC",
+        "phasesenergized: Phases Propagated": "ABC",
+        "phasessubstituted: Phases Substituted": null,
+        "phasefrequency: Phase Frequency": "60 hz",
+        "numphasesconstructed: Number of phases built": "Three Phase",
+        "lifecyclestatus: Lifecycle Status": "In Service",
+        "installdate: Date Installed": 1576619238000,
+        "retireddate: Date Retired": null,
+        "inservicedate: In Service Date": 1576619238000,
+        "Equipment Maker": null,
+        "spatialsource: Spatial Source": "Unknown",
+        "spatialconfidence: Spatial Confidence": "Unknown",
+        "grounding: System Grounding": "Wye",
+        "notes: General Notes": null,
+        "symbolrotation: Symbol Rotation": 0,
+        "maintby: Maintained by": "Our Agency",
+        "ownedby: Owned by": "Our Agency"
+      }
+    },
+    {
+      "id": 17,
+      "containerID": 0,
+      "assocSourceID": 12,
+      "assocGlobalID": "{FAF37B58-6F48-4228-BD7D-1A004E1FD737}",
+      "userType": 0,
+      "geometry": {
+        "x": 1031867.064038094133,
+        "y": 1866062.681616522372,
+        "z": 0,
+        "m": null,
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {
+        "Object ID": 3835,
+        "Asset group": "Medium Voltage Line End",
+        "Asset type": "Overhead Line End",
+        "Association status": "Attachment",
+        "Is connected": "True",
+        "Creation date": 946684800000,
+        "Creator": "esri",
+        "Last update": 946684800000,
+        "Updated by": "esri",
+        "Global ID": "{FAF37B58-6F48-4228-BD7D-1A004E1FD737}",
+        "Subnetwork name": "RMT001",
+        "Supported subnetwork name": "Unknown",
+        "assetid: Asset Identifier": "529",
+        "nominalvoltage: Nominal Operation Voltage (L-L)": "12.47 kV",
+        "maxvoltage: Maximum Operating Voltage (L-L)": "15 kV",
+        "nominalvoltagelg: Nominal Operation Voltage (L-G)": "7.2 kV",
+        "phasesnormal: Phases Normal": "ABC",
+        "phasescurrent: User Assigned Phases": null,
+        "phasessummer: Summer Configuration Phases": "ABC",
+        "phaseswinter: Winter Configuration Phases": "ABC",
+        "phasesplan: Planned Phases": "ABC",
+        "phasesenergized: Phases Propagated": "ABC",
+        "phasessubstituted: Phases Substituted": null,
+        "phasefrequency: Phase Frequency": "60 hz",
+        "numphasesconstructed: Number of phases built": "Three Phase",
+        "lifecyclestatus: Lifecycle Status": "In Service",
+        "installdate: Date Installed": 1576619239000,
+        "retireddate: Date Retired": null,
+        "inservicedate: In Service Date": 1576619239000,
+        "Equipment Maker": null,
+        "spatialsource: Spatial Source": "Unknown",
+        "spatialconfidence: Spatial Confidence": "Unknown",
+        "grounding: System Grounding": "Wye",
+        "notes: General Notes": null,
+        "symbolrotation: Symbol Rotation": 0,
+        "maintby: Maintained by": "Our Agency",
+        "ownedby: Owned by": "Our Agency"
+      }
+    },
+    {
+      "id": 1,
+      "containerID": 2,
+      "assocSourceID": 9,
+      "assocGlobalID": "{2F82291C-ED2E-40F5-AB36-FEB0C50E3353}",
+      "userType": 0,
+      "geometry": {
+        "x": 1028633.147277593613,
+        "y": 1866062.681616522372,
+        "z": 0,
+        "m": null,
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {
+        "Object ID": 10472,
+        "Asset group": "Medium Voltage Circuit Breaker",
+        "Asset type": "Three Phase Circuit Breaker",
+        "Association status": "Content",
+        "Is subnetwork controller": "True",
+        "Is connected": "True",
+        "Subnetwork controller name": "CB:Line Side/RMT001",
+        "Tier name": 5,
+        "Tier rank": 5,
+        "terminalconfiguration: Terminal Configuration": "Default",
+        "Creation date": 946684800000,
+        "Creator": "esri",
+        "Last update": 946684800000,
+        "Updated by": "esri",
+        "Global ID": "{2F82291C-ED2E-40F5-AB36-FEB0C50E3353}",
+        "Subnetwork name": "RMT001::Southside Unit 1 Bus 1",
+        "Supported subnetwork name": "Unknown",
+        "assetid: Asset Identifier": "1",
+        "plandevicestatus: Planning Device Status": "Closed",
+        "normaldevicestatus: Normal Device Status": "Closed",
+        "currentdevicestatus: Devices Status": "Closed",
+        "winterdevicestatus: Winter State": "Closed",
+        "summerdevicestatus: Summer State": "Closed",
+        "phasesnormal: Phases Normal": "ABC",
+        "phasescurrent: User Assigned Phases": "ABC",
+        "phasessummer: Summer Configuration Phases": "ABC",
+        "phaseswinter: Winter Configuration Phases": "ABC",
+        "phasesplan: Planned Phases": "ABC",
+        "phasesenergized: Phases Propagated": "ABC",
+        "phasessubstituted: Phases Substituted": null,
+        "phasefrequency: Phase Frequency": "60 hz",
+        "numphasesconstructed: Number of phases built": 3,
+        "designtype: Fuel Type, Type": null,
+        "grounding: Circuit Grounding or Earthing, Configuration - GY, Y or D": "Wye",
+        "manufacturer: Manufacturer": null,
+        "nominalvoltage: Nominal Operation Voltage (L-L)": "12.47 kV",
+        "powerrating: Average Load (kW), Continuous Amps Rating, Power Rating, Service Load (kW), kVA": null,
+        "addpowerrating: Active Generation, DC Voltage Reference Setting, Discharge Voltage, KVAR, Rated Current, Rated DC Voltage, Rated KVA": null,
+        "powermeasure: Load Tap Changer Maximum Change (%)": null,
+        "maxvoltage: Maximum Voltage": "14.4 kV",
+        "maxoperatingvoltage: Maximum Operating Voltage": "15 kV",
+        "compatibleunit: Compatible Unit Code": null,
+        "powerrating2: High Impulse Current, Maximum Interrupting Current, Nominal Rating, Rated Power, Rated kVA, VSC Rating, kW-Phase": null,
+        "lifecyclestatus: Lifecycle Status": "In Service",
+        "remotecontrol: Device Remotely Controlled": "Unknown",
+        "model: Device Model": null,
+        "loadtapchangermaximumchange: Load Tap Changer Maximum Change": null,
+        "loadtapchangerlowerbandwidth: Load Tap Changer Lower Bandwidth": null,
+        "maximumboost: Maximum Boost": null,
+        "z0psimpedance: Sequence Impedance -Z0ps (%)": null,
+        "z0xmimpedance: Sequence Impedance -Z0xm (%)": null,
+        "z1psimpedance: Sequence Impedance -Z1 (%)": null,
+        "x0r0impedance: Sequence Impedance -X0/R0pm": null,
+        "x1r1impedance: Sequence Impedance -X1/R1": null,
+        "z0pmimpedance: Sequence Impedance -Z0pm (%)": null,
+        "primarygroundimpedance: Primary Ground Impedance (ohms), Primary Ground Impedance Rg (ohms)": null,
+        "gridsidecouplinginductance: Grid Side Coupling Inductance (ohms), Primary Ground Impedance Rg (ohms)": null,
+        "powerrating3: Amperage, CT Primary Rating, Rated Voltage (KV L-L)": null,
+        "powerrating4: No Load Losses W, Tuned Frequency, Zero Sequence Subtransient (R+X)": null,
+        "longelectric3": null,
+        "Remote Control Indicator": null,
+        "equipmentyype: ANSI Group 2,3,4,5, Insulation Type (Liquid,Dry), Type, Type (kVA-PF, AMP-PF, kW-PF, kW-kVAR), Type of Data": null,
+        "tripmode: Single Phase Trip and Lockout": null,
+        "tapsandpoles: Ground Material, Number of Taps": null,
+        "equipmentconfiguration3: Master Offset, Primary to Tertiary Phase Shift": null,
+        "equipmentconfiguration1: Fuse Type, Reverse Trips": null,
+        "nominalvoltagelg: Nominal Operation Voltage (L-G)": "7.2 kV",
+        "directional: Bi Directional, Reversible": null,
+        "alternatevoltagelinetoline: Low Side Voltage (L-L)": null,
+        "alternatevoltagelinetoground: Low Side Voltage (L-G)": null,
+        "electricdecimal1: Boost, CT Ratio, Capacitive Reactance (Ohms), Efficiency %, Grid Side coupling resistance, Maximum Boost": null,
+        "electricdecimal2: Buck, Current Maximum Power Point (Impp), DC Capacitor, DC Voltage Control, Maximum Buck": null,
+        "equipmentconfiguration2: Primary to Secondary Phase Shift, Time Delay, Trip Count": null,
+        "electricdecimal3: Current Control, Fault Contribution, Inductance, Load Tap Changer Upper Bandwidth (%), PT Ratio": null,
+        "electricdecimal4: Inductive Resistance, Power Factor, Primary Ground Impedance Xg (ohms), Reactive Power Control": null,
+        "electricdecimal5: Losses (kW/Phase), Losses (kW/phase), The tertiary base voltage": null,
+        "electricdecimal6: Load Tap Changer Lower Bandwidth (%), Quality Factor": null,
+        "peakload: Peak Load, Peak Load (kW)": null,
+        "offpeakload: Load at Off Peak Time": null,
+        "district: District": null,
+        "installdate: Date Installed": 1576619323000,
+        "retireddate: Date Retired": null,
+        "inservicedate: In Service Date": 1576619323000,
+        "isvalidloop: Is Loop Valid": null,
+        "spatialsource: Spatial Source": "Unknown",
+        "spatialconfidence: Spatial Confidence": "Unknown",
+        "ownedby: Owned by": "Our Agency",
+        "maintby: Maintained by": "Our Agency",
+        "notes: General Notes": null,
+        "symbolrotation: Symbol Rotation": 0
+      }
+    },
+    {
+      "id": 12,
+      "containerID": 0,
+      "assocSourceID": 9,
+      "assocGlobalID": "{502C41E4-B118-4D45-87AC-F0B6EA1F12EE}",
+      "userType": 0,
+      "geometry": {
+        "x": 1031867.064038094133,
+        "y": 1866709.465099856257,
+        "z": 0,
+        "m": null,
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {
+        "Object ID": 10825,
+        "Asset group": "Medium Voltage Switch",
+        "Asset type": "Overhead Single Phase Load Break",
+        "Association status": "Connectivity",
+        "Is subnetwork controller": "False",
+        "Is connected": "True",
+        "Subnetwork controller name": "Unknown",
+        "Tier name": 0,
+        "Tier rank": 0,
+        "terminalconfiguration: Terminal Configuration": "Default",
+        "Creation date": 946684800000,
+        "Creator": "esri",
+        "Last update": 946684800000,
+        "Updated by": "esri",
+        "Global ID": "{502C41E4-B118-4D45-87AC-F0B6EA1F12EE}",
+        "Subnetwork name": "RMT001",
+        "Supported subnetwork name": "Unknown",
+        "assetid: Asset Identifier": "13",
+        "plandevicestatus: Planning Device Status": "Closed",
+        "normaldevicestatus: Normal Device Status": "Closed",
+        "currentdevicestatus: Devices Status": "Closed",
+        "winterdevicestatus: Winter State": "Closed",
+        "summerdevicestatus: Summer State": "Closed",
+        "phasesnormal: Phases Normal": "B",
+        "phasescurrent: User Assigned Phases": "B",
+        "phasessummer: Summer Configuration Phases": "B",
+        "phaseswinter: Winter Configuration Phases": "B",
+        "phasesplan: Planned Phases": "B",
+        "phasesenergized: Phases Propagated": "B",
+        "phasessubstituted: Phases Substituted": null,
+        "phasefrequency: Phase Frequency": "60 hz",
+        "numphasesconstructed: Number of phases built": 0,
+        "designtype: Fuel Type, Type": null,
+        "grounding: Circuit Grounding or Earthing, Configuration - GY, Y or D": "Wye",
+        "manufacturer: Manufacturer": null,
+        "nominalvoltage: Nominal Operation Voltage (L-L)": "12.47 kV",
+        "powerrating: Average Load (kW), Continuous Amps Rating, Power Rating, Service Load (kW), kVA": "600 amp",
+        "addpowerrating: Active Generation, DC Voltage Reference Setting, Discharge Voltage, KVAR, Rated Current, Rated DC Voltage, Rated KVA": "600 amp",
+        "powermeasure: Load Tap Changer Maximum Change (%)": null,
+        "maxvoltage: Maximum Voltage": "14.4 kV",
+        "maxoperatingvoltage: Maximum Operating Voltage": "15 kV",
+        "compatibleunit: Compatible Unit Code": null,
+        "powerrating2: High Impulse Current, Maximum Interrupting Current, Nominal Rating, Rated Power, Rated kVA, VSC Rating, kW-Phase": "8000 amp",
+        "lifecyclestatus: Lifecycle Status": "In Service",
+        "remotecontrol: Device Remotely Controlled": "Unknown",
+        "model: Device Model": null,
+        "loadtapchangermaximumchange: Load Tap Changer Maximum Change": null,
+        "loadtapchangerlowerbandwidth: Load Tap Changer Lower Bandwidth": null,
+        "maximumboost: Maximum Boost": null,
+        "z0psimpedance: Sequence Impedance -Z0ps (%)": null,
+        "z0xmimpedance: Sequence Impedance -Z0xm (%)": null,
+        "z1psimpedance: Sequence Impedance -Z1 (%)": null,
+        "x0r0impedance: Sequence Impedance -X0/R0pm": null,
+        "x1r1impedance: Sequence Impedance -X1/R1": null,
+        "z0pmimpedance: Sequence Impedance -Z0pm (%)": null,
+        "primarygroundimpedance: Primary Ground Impedance (ohms), Primary Ground Impedance Rg (ohms)": null,
+        "gridsidecouplinginductance: Grid Side Coupling Inductance (ohms), Primary Ground Impedance Rg (ohms)": null,
+        "powerrating3: Amperage, CT Primary Rating, Rated Voltage (KV L-L)": null,
+        "powerrating4: No Load Losses W, Tuned Frequency, Zero Sequence Subtransient (R+X)": null,
+        "longelectric3": null,
+        "Remote Control Indicator": null,
+        "equipmentyype: ANSI Group 2,3,4,5, Insulation Type (Liquid,Dry), Type, Type (kVA-PF, AMP-PF, kW-PF, kW-kVAR), Type of Data": null,
+        "tripmode: Single Phase Trip and Lockout": null,
+        "tapsandpoles: Ground Material, Number of Taps": null,
+        "equipmentconfiguration3: Master Offset, Primary to Tertiary Phase Shift": null,
+        "equipmentconfiguration1: Fuse Type, Reverse Trips": null,
+        "nominalvoltagelg: Nominal Operation Voltage (L-G)": "7.2 kV",
+        "directional: Bi Directional, Reversible": null,
+        "alternatevoltagelinetoline: Low Side Voltage (L-L)": null,
+        "alternatevoltagelinetoground: Low Side Voltage (L-G)": null,
+        "electricdecimal1: Boost, CT Ratio, Capacitive Reactance (Ohms), Efficiency %, Grid Side coupling resistance, Maximum Boost": null,
+        "electricdecimal2: Buck, Current Maximum Power Point (Impp), DC Capacitor, DC Voltage Control, Maximum Buck": null,
+        "equipmentconfiguration2: Primary to Secondary Phase Shift, Time Delay, Trip Count": null,
+        "electricdecimal3: Current Control, Fault Contribution, Inductance, Load Tap Changer Upper Bandwidth (%), PT Ratio": null,
+        "electricdecimal4: Inductive Resistance, Power Factor, Primary Ground Impedance Xg (ohms), Reactive Power Control": null,
+        "electricdecimal5: Losses (kW/Phase), Losses (kW/phase), The tertiary base voltage": null,
+        "electricdecimal6: Load Tap Changer Lower Bandwidth (%), Quality Factor": null,
+        "peakload: Peak Load, Peak Load (kW)": null,
+        "offpeakload: Load at Off Peak Time": null,
+        "district: District": null,
+        "installdate: Date Installed": 1576619327000,
+        "retireddate: Date Retired": null,
+        "inservicedate: In Service Date": 1576619327000,
+        "isvalidloop: Is Loop Valid": null,
+        "spatialsource: Spatial Source": "Unknown",
+        "spatialconfidence: Spatial Confidence": "Unknown",
+        "ownedby: Owned by": "Our Agency",
+        "maintby: Maintained by": "Our Agency",
+        "notes: General Notes": null,
+        "symbolrotation: Symbol Rotation": 0
+      }
+    },
+    {
+      "id": 16,
+      "containerID": 0,
+      "assocSourceID": 9,
+      "assocGlobalID": "{777B94D0-6AE8-40B7-ACC3-1761B4838804}",
+      "userType": 0,
+      "geometry": {
+        "x": 1032513.847521424294,
+        "y": 1866062.681616522372,
+        "z": 0,
+        "m": null,
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {
+        "Object ID": 10843,
+        "Asset group": "Medium Voltage Switch",
+        "Asset type": "Overhead Three Phase Load Break",
+        "Association status": "None",
+        "Is subnetwork controller": "False",
+        "Is connected": "True",
+        "Subnetwork controller name": "Unknown",
+        "Tier name": 0,
+        "Tier rank": 0,
+        "terminalconfiguration: Terminal Configuration": "Default",
+        "Creation date": 946684800000,
+        "Creator": "esri",
+        "Last update": 946684800000,
+        "Updated by": "esri",
+        "Global ID": "{777B94D0-6AE8-40B7-ACC3-1761B4838804}",
+        "Subnetwork name": "RMT001",
+        "Supported subnetwork name": "Unknown",
+        "assetid: Asset Identifier": "15",
+        "plandevicestatus: Planning Device Status": "Open",
+        "normaldevicestatus: Normal Device Status": "Open",
+        "currentdevicestatus: Devices Status": "Open",
+        "winterdevicestatus: Winter State": "Open",
+        "summerdevicestatus: Summer State": "Open",
+        "phasesnormal: Phases Normal": "ABC",
+        "phasescurrent: User Assigned Phases": "ABC",
+        "phasessummer: Summer Configuration Phases": "ABC",
+        "phaseswinter: Winter Configuration Phases": "ABC",
+        "phasesplan: Planned Phases": "ABC",
+        "phasesenergized: Phases Propagated": "ABC",
+        "phasessubstituted: Phases Substituted": null,
+        "phasefrequency: Phase Frequency": "60 hz",
+        "numphasesconstructed: Number of phases built": 0,
+        "designtype: Fuel Type, Type": null,
+        "grounding: Circuit Grounding or Earthing, Configuration - GY, Y or D": "Wye",
+        "manufacturer: Manufacturer": null,
+        "nominalvoltage: Nominal Operation Voltage (L-L)": "12.47 kV",
+        "powerrating: Average Load (kW), Continuous Amps Rating, Power Rating, Service Load (kW), kVA": "600 amp",
+        "addpowerrating: Active Generation, DC Voltage Reference Setting, Discharge Voltage, KVAR, Rated Current, Rated DC Voltage, Rated KVA": "600 amp",
+        "powermeasure: Load Tap Changer Maximum Change (%)": null,
+        "maxvoltage: Maximum Voltage": "14.4 kV",
+        "maxoperatingvoltage: Maximum Operating Voltage": "15 kV",
+        "compatibleunit: Compatible Unit Code": null,
+        "powerrating2: High Impulse Current, Maximum Interrupting Current, Nominal Rating, Rated Power, Rated kVA, VSC Rating, kW-Phase": "8000 amp",
+        "lifecyclestatus: Lifecycle Status": "In Service",
+        "remotecontrol: Device Remotely Controlled": "Unknown",
+        "model: Device Model": null,
+        "loadtapchangermaximumchange: Load Tap Changer Maximum Change": null,
+        "loadtapchangerlowerbandwidth: Load Tap Changer Lower Bandwidth": null,
+        "maximumboost: Maximum Boost": null,
+        "z0psimpedance: Sequence Impedance -Z0ps (%)": null,
+        "z0xmimpedance: Sequence Impedance -Z0xm (%)": null,
+        "z1psimpedance: Sequence Impedance -Z1 (%)": null,
+        "x0r0impedance: Sequence Impedance -X0/R0pm": null,
+        "x1r1impedance: Sequence Impedance -X1/R1": null,
+        "z0pmimpedance: Sequence Impedance -Z0pm (%)": null,
+        "primarygroundimpedance: Primary Ground Impedance (ohms), Primary Ground Impedance Rg (ohms)": null,
+        "gridsidecouplinginductance: Grid Side Coupling Inductance (ohms), Primary Ground Impedance Rg (ohms)": null,
+        "powerrating3: Amperage, CT Primary Rating, Rated Voltage (KV L-L)": null,
+        "powerrating4: No Load Losses W, Tuned Frequency, Zero Sequence Subtransient (R+X)": null,
+        "longelectric3": null,
+        "Remote Control Indicator": null,
+        "equipmentyype: ANSI Group 2,3,4,5, Insulation Type (Liquid,Dry), Type, Type (kVA-PF, AMP-PF, kW-PF, kW-kVAR), Type of Data": null,
+        "tripmode: Single Phase Trip and Lockout": null,
+        "tapsandpoles: Ground Material, Number of Taps": null,
+        "equipmentconfiguration3: Master Offset, Primary to Tertiary Phase Shift": null,
+        "equipmentconfiguration1: Fuse Type, Reverse Trips": null,
+        "nominalvoltagelg: Nominal Operation Voltage (L-G)": "7.2 kV",
+        "directional: Bi Directional, Reversible": null,
+        "alternatevoltagelinetoline: Low Side Voltage (L-L)": null,
+        "alternatevoltagelinetoground: Low Side Voltage (L-G)": null,
+        "electricdecimal1: Boost, CT Ratio, Capacitive Reactance (Ohms), Efficiency %, Grid Side coupling resistance, Maximum Boost": null,
+        "electricdecimal2: Buck, Current Maximum Power Point (Impp), DC Capacitor, DC Voltage Control, Maximum Buck": null,
+        "equipmentconfiguration2: Primary to Secondary Phase Shift, Time Delay, Trip Count": null,
+        "electricdecimal3: Current Control, Fault Contribution, Inductance, Load Tap Changer Upper Bandwidth (%), PT Ratio": null,
+        "electricdecimal4: Inductive Resistance, Power Factor, Primary Ground Impedance Xg (ohms), Reactive Power Control": null,
+        "electricdecimal5: Losses (kW/Phase), Losses (kW/phase), The tertiary base voltage": null,
+        "electricdecimal6: Load Tap Changer Lower Bandwidth (%), Quality Factor": null,
+        "peakload: Peak Load, Peak Load (kW)": null,
+        "offpeakload: Load at Off Peak Time": null,
+        "district: District": null,
+        "installdate: Date Installed": 1576619327000,
+        "retireddate: Date Retired": null,
+        "inservicedate: In Service Date": 1576619327000,
+        "isvalidloop: Is Loop Valid": null,
+        "spatialsource: Spatial Source": "Unknown",
+        "spatialconfidence: Spatial Confidence": "Unknown",
+        "ownedby: Owned by": "Our Agency",
+        "maintby: Maintained by": "Our Agency",
+        "notes: General Notes": null,
+        "symbolrotation: Symbol Rotation": 0
+      }
+    },
+    {
+      "id": 23,
+      "containerID": 0,
+      "assocSourceID": 9,
+      "assocGlobalID": "{867D8C50-AA23-4612-8084-FFE29ED69323}",
+      "userType": 0,
+      "geometry": {
+        "x": 1035100.980798590928,
+        "y": 1866062.681616522372,
+        "z": 0,
+        "m": null,
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {
+        "Object ID": 11296,
+        "Asset group": "Medium Voltage Transformer",
+        "Asset type": "Overhead Single Phase",
+        "Association status": "Connectivity",
+        "Is subnetwork controller": "False",
+        "Is connected": "True",
+        "Subnetwork controller name": "Unknown",
+        "Tier name": 0,
+        "Tier rank": 0,
+        "terminalconfiguration: Terminal Configuration": "Default",
+        "Creation date": 946684800000,
+        "Creator": "esri",
+        "Last update": 946684800000,
+        "Updated by": "esri",
+        "Global ID": "{867D8C50-AA23-4612-8084-FFE29ED69323}",
+        "Subnetwork name": "RMT001",
+        "Supported subnetwork name": "Unknown",
+        "assetid: Asset Identifier": null,
+        "plandevicestatus: Planning Device Status": "Active",
+        "normaldevicestatus: Normal Device Status": "Active",
+        "currentdevicestatus: Devices Status": "Active",
+        "winterdevicestatus: Winter State": "Active",
+        "summerdevicestatus: Summer State": "Active",
+        "phasesnormal: Phases Normal": null,
+        "phasescurrent: User Assigned Phases": null,
+        "phasessummer: Summer Configuration Phases": null,
+        "phaseswinter: Winter Configuration Phases": null,
+        "phasesplan: Planned Phases": null,
+        "phasesenergized: Phases Propagated": "C",
+        "phasessubstituted: Phases Substituted": null,
+        "phasefrequency: Phase Frequency": "60 hz",
+        "numphasesconstructed: Number of phases built": 0,
+        "designtype: Fuel Type, Type": null,
+        "grounding: Circuit Grounding or Earthing, Configuration - GY, Y or D": "Wye",
+        "manufacturer: Manufacturer": null,
+        "nominalvoltage: Nominal Operation Voltage (L-L)": "12.47 kV",
+        "powerrating: Average Load (kW), Continuous Amps Rating, Power Rating, Service Load (kW), kVA": null,
+        "addpowerrating: Active Generation, DC Voltage Reference Setting, Discharge Voltage, KVAR, Rated Current, Rated DC Voltage, Rated KVA": "75 kVA",
+        "powermeasure: Load Tap Changer Maximum Change (%)": null,
+        "maxvoltage: Maximum Voltage": "Unknown",
+        "maxoperatingvoltage: Maximum Operating Voltage": "15 kV",
+        "compatibleunit: Compatible Unit Code": null,
+        "powerrating2: High Impulse Current, Maximum Interrupting Current, Nominal Rating, Rated Power, Rated kVA, VSC Rating, kW-Phase": null,
+        "lifecyclestatus: Lifecycle Status": "In Service",
+        "remotecontrol: Device Remotely Controlled": "Unknown",
+        "model: Device Model": null,
+        "loadtapchangermaximumchange: Load Tap Changer Maximum Change": null,
+        "loadtapchangerlowerbandwidth: Load Tap Changer Lower Bandwidth": null,
+        "maximumboost: Maximum Boost": null,
+        "z0psimpedance: Sequence Impedance -Z0ps (%)": null,
+        "z0xmimpedance: Sequence Impedance -Z0xm (%)": null,
+        "z1psimpedance: Sequence Impedance -Z1 (%)": null,
+        "x0r0impedance: Sequence Impedance -X0/R0pm": null,
+        "x1r1impedance: Sequence Impedance -X1/R1": null,
+        "z0pmimpedance: Sequence Impedance -Z0pm (%)": null,
+        "primarygroundimpedance: Primary Ground Impedance (ohms), Primary Ground Impedance Rg (ohms)": null,
+        "gridsidecouplinginductance: Grid Side Coupling Inductance (ohms), Primary Ground Impedance Rg (ohms)": null,
+        "powerrating3: Amperage, CT Primary Rating, Rated Voltage (KV L-L)": null,
+        "powerrating4: No Load Losses W, Tuned Frequency, Zero Sequence Subtransient (R+X)": null,
+        "longelectric3": null,
+        "Remote Control Indicator": null,
+        "equipmentyype: ANSI Group 2,3,4,5, Insulation Type (Liquid,Dry), Type, Type (kVA-PF, AMP-PF, kW-PF, kW-kVAR), Type of Data": null,
+        "tripmode: Single Phase Trip and Lockout": null,
+        "tapsandpoles: Ground Material, Number of Taps": null,
+        "equipmentconfiguration3: Master Offset, Primary to Tertiary Phase Shift": null,
+        "equipmentconfiguration1: Fuse Type, Reverse Trips": null,
+        "nominalvoltagelg: Nominal Operation Voltage (L-G)": null,
+        "directional: Bi Directional, Reversible": null,
+        "alternatevoltagelinetoline: Low Side Voltage (L-L)": null,
+        "alternatevoltagelinetoground: Low Side Voltage (L-G)": null,
+        "electricdecimal1: Boost, CT Ratio, Capacitive Reactance (Ohms), Efficiency %, Grid Side coupling resistance, Maximum Boost": null,
+        "electricdecimal2: Buck, Current Maximum Power Point (Impp), DC Capacitor, DC Voltage Control, Maximum Buck": null,
+        "equipmentconfiguration2: Primary to Secondary Phase Shift, Time Delay, Trip Count": null,
+        "electricdecimal3: Current Control, Fault Contribution, Inductance, Load Tap Changer Upper Bandwidth (%), PT Ratio": null,
+        "electricdecimal4: Inductive Resistance, Power Factor, Primary Ground Impedance Xg (ohms), Reactive Power Control": null,
+        "electricdecimal5: Losses (kW/Phase), Losses (kW/phase), The tertiary base voltage": null,
+        "electricdecimal6: Load Tap Changer Lower Bandwidth (%), Quality Factor": null,
+        "peakload: Peak Load, Peak Load (kW)": null,
+        "offpeakload: Load at Off Peak Time": null,
+        "district: District": null,
+        "installdate: Date Installed": null,
+        "retireddate: Date Retired": null,
+        "inservicedate: In Service Date": null,
+        "isvalidloop: Is Loop Valid": null,
+        "spatialsource: Spatial Source": "Unknown",
+        "spatialconfidence: Spatial Confidence": "Unknown",
+        "ownedby: Owned by": "Our Agency",
+        "maintby: Maintained by": "Our Agency",
+        "notes: General Notes": null,
+        "symbolrotation: Symbol Rotation": 0
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 25,
+      "containerID": 0,
+      "assocSourceID": 1,
+      "assocGlobalID": "{65016479-20DB-4465-8F33-020D99A48681}",
+      "userType": 1,
+      "fromID": 12,
+      "toID": 13,
+      "geometry": {
+        "hasZ": true,
+        "hasM": true,
+        "paths": [
+          [
+            [
+              1031867.064038094133,
+              1866709.465099856257,
+              0,
+              null
+            ],
+            [
+              1031414.315599758178,
+              1866709.465099856257,
+              0,
+              null
+            ],
+            [
+              1031220.280554760247,
+              1866062.681616522372,
+              0,
+              null
+            ]
+          ]
+        ],
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {
+        "Object ID": 8670,
+        "From network source ID": 9,
+        "From global ID": "{502C41E4-B118-4D45-87AC-F0B6EA1F12EE}",
+        "From terminal ID": 1,
+        "To network source ID": 12,
+        "To global ID": "{54D91F24-09C8-4884-BE35-C508274ED7BC}",
+        "To terminal ID": 1,
+        "Association type": 1,
+        "Is content visible": "False",
+        "Percentage along": null,
+        "Status": 0,
+        "Error code": 0,
+        "Error message": null,
+        "Creation date": 1597630942000,
+        "Creator": "UN_ELECTRIC",
+        "Last update": 1597630942000,
+        "Updated by": "UN_ELECTRIC",
+        "Global ID": "{65016479-20DB-4465-8F33-020D99A48681}"
+      }
+    },
+    {
+      "id": 36,
+      "containerID": 0,
+      "assocSourceID": 10,
+      "assocGlobalID": "{E309AFF8-FED4-463C-BCC3-9716A86476B8}",
+      "userType": 0,
+      "fromID": 17,
+      "toID": 13,
+      "geometry": {
+        "hasZ": true,
+        "hasM": true,
+        "paths": [
+          [
+            [
+              1031867.064038094133,
+              1866062.681616522372,
+              0,
+              null
+            ],
+            [
+              1031220.280554760247,
+              1866062.681616522372,
+              0,
+              null
+            ]
+          ]
+        ],
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {
+        "Object ID": 12967,
+        "Asset group": "Medium Voltage Conductor",
+        "Asset type": "Overhead Three Phase",
+        "Association status": "None",
+        "Is connected": "True",
+        "From device terminal": "None",
+        "To device terminal": "None",
+        "Creation date": 946684800000,
+        "Creator": "esri",
+        "Last update": 946684800000,
+        "Updated by": "esri",
+        "Global ID": "{E309AFF8-FED4-463C-BCC3-9716A86476B8}",
+        "Subnetwork name": "RMT001",
+        "Supported subnetwork name": "Unknown",
+        "assetid: Asset ID, Section ID": "506",
+        "phasesnormal: Phases Normal": "ABC",
+        "phasescurrent: User Assigned Phases": null,
+        "phasessummer: Summer Configuration Phases": "ABC",
+        "phaseswinter: Winter Configuration Phases": "ABC",
+        "phasesplan: Planned Phases": "ABC",
+        "phasesenergized: Phases Propagated": "ABC",
+        "phasefrequency: Phase Frequency": "60 hz",
+        "numphasesconstructed: Number of phases built": "Three Phase",
+        "nominalvoltage: Nominal Voltage (L-L)": "12.47 kV",
+        "maxvoltage: Maximum Voltage": "15 kV",
+        "nominalvoltagelg: Nominal Voltage (L-G)": "7.2 kV",
+        "commonconductortype: Common material used in labeling": "Unknown",
+        "grounding: System Grounding Type": "Wye",
+        "neutraltype: Neutral Material, Neutral Type": "Aluminum",
+        "sharedneutral: Shared Neutral": "No",
+        "Tier Name": null,
+        "lifecyclestatus: Lifecycle Status": "In Service",
+        "inservicedate: In Service Date": 1576619400000,
+        "retireddate: Date Retired": null,
+        "measuredlength: Length of cable as measured in the field": null,
+        "spatialsource: Spatial Source": "Unknown",
+        "spatialconfidence: Spatial confidence": "Unknown",
+        "isvalidloop: Is this feature part of a valid loop": "Yes",
+        "ownedby: Owner of Equipment": "Our Agency",
+        "labeltext: Labeling String": null,
+        "notes: General Notes": null,
+        "installdate: Date Installed": 1576619400000,
+        "maintby: Maintained by": "Our Agency"
+      }
+    },
+    {
+      "id": 39,
+      "containerID": 0,
+      "assocSourceID": 10,
+      "assocGlobalID": "{6D4B9CA5-2B86-4ACD-85F4-DC7090AFF1CB}",
+      "userType": 0,
+      "fromID": 16,
+      "toID": 17,
+      "geometry": {
+        "hasZ": true,
+        "hasM": true,
+        "paths": [
+          [
+            [
+              1032513.847521424294,
+              1866062.681616522372,
+              0,
+              null
+            ],
+            [
+              1031867.064038094133,
+              1866062.681616522372,
+              0,
+              null
+            ]
+          ]
+        ],
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {
+        "Object ID": 12976,
+        "Asset group": "Medium Voltage Conductor",
+        "Asset type": "Overhead Three Phase",
+        "Association status": "None",
+        "Is connected": "True",
+        "From device terminal": "SS:S2",
+        "To device terminal": "None",
+        "Creation date": 946684800000,
+        "Creator": "esri",
+        "Last update": 946684800000,
+        "Updated by": "esri",
+        "Global ID": "{6D4B9CA5-2B86-4ACD-85F4-DC7090AFF1CB}",
+        "Subnetwork name": "RMT001",
+        "Supported subnetwork name": "Unknown",
+        "assetid: Asset ID, Section ID": "534",
+        "phasesnormal: Phases Normal": "ABC",
+        "phasescurrent: User Assigned Phases": null,
+        "phasessummer: Summer Configuration Phases": "ABC",
+        "phaseswinter: Winter Configuration Phases": "ABC",
+        "phasesplan: Planned Phases": "ABC",
+        "phasesenergized: Phases Propagated": "ABC",
+        "phasefrequency: Phase Frequency": "60 hz",
+        "numphasesconstructed: Number of phases built": "Three Phase",
+        "nominalvoltage: Nominal Voltage (L-L)": "12.47 kV",
+        "maxvoltage: Maximum Voltage": "15 kV",
+        "nominalvoltagelg: Nominal Voltage (L-G)": "7.2 kV",
+        "commonconductortype: Common material used in labeling": "Unknown",
+        "grounding: System Grounding Type": "Wye",
+        "neutraltype: Neutral Material, Neutral Type": "Aluminum",
+        "sharedneutral: Shared Neutral": "No",
+        "Tier Name": null,
+        "lifecyclestatus: Lifecycle Status": "In Service",
+        "inservicedate: In Service Date": 1576619400000,
+        "retireddate: Date Retired": null,
+        "measuredlength: Length of cable as measured in the field": null,
+        "spatialsource: Spatial Source": "Unknown",
+        "spatialconfidence: Spatial confidence": "Unknown",
+        "isvalidloop: Is this feature part of a valid loop": "Yes",
+        "ownedby: Owner of Equipment": "Our Agency",
+        "labeltext: Labeling String": null,
+        "notes: General Notes": null,
+        "installdate: Date Installed": 1576619400000,
+        "maintby: Maintained by": "Our Agency"
+      }
+    },
+    {
+      "id": 24,
+      "containerID": 0,
+      "assocSourceID": 0,
+      "assocGlobalID": "{09EF8300-CB5A-430D-B120-A19FB6EF14C2}",
+      "userType": 3,
+      "fromID": 5,
+      "toID": 6,
+      "geometry": {
+        "hasZ": true,
+        "hasM": true,
+        "paths": [
+          [
+            [
+              1029926.713916175067,
+              1866062.681616522372,
+              0,
+              null
+            ],
+            [
+              1030573.497399509,
+              1866062.681616522372,
+              0,
+              null
+            ]
+          ]
+        ],
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {}
+    },
+    {
+      "id": 26,
+      "containerID": 0,
+      "assocSourceID": 0,
+      "assocGlobalID": "{1FA70EB1-A159-46CF-89EF-6249D17EE6DB}",
+      "userType": 3,
+      "fromID": 1,
+      "toID": 3,
+      "geometry": {
+        "hasZ": true,
+        "hasM": true,
+        "paths": [
+          [
+            [
+              1028633.147277593613,
+              1866062.681616522372,
+              0,
+              null
+            ],
+            [
+              1029279.930432841182,
+              1866062.681616522372,
+              0,
+              null
+            ]
+          ]
+        ],
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {}
+    },
+    {
+      "id": 27,
+      "containerID": 0,
+      "assocSourceID": 0,
+      "assocGlobalID": "{F5886F17-A8DE-4258-9147-CE998E766A03}",
+      "userType": 3,
+      "fromID": 4,
+      "toID": 6,
+      "geometry": {
+        "hasZ": true,
+        "hasM": true,
+        "paths": [
+          [
+            [
+              1031220.280554760247,
+              1866709.465099856257,
+              0,
+              null
+            ],
+            [
+              1030767.532444510609,
+              1866709.465099856257,
+              0,
+              null
+            ],
+            [
+              1030573.497399509,
+              1866062.681616522372,
+              0,
+              null
+            ]
+          ]
+        ],
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {}
+    },
+    {
+      "id": 28,
+      "containerID": 0,
+      "assocSourceID": 0,
+      "assocGlobalID": "{34D3F807-80DD-4593-8B17-553C62A6026F}",
+      "userType": 3,
+      "fromID": 3,
+      "toID": 5,
+      "geometry": {
+        "hasZ": true,
+        "hasM": true,
+        "paths": [
+          [
+            [
+              1029279.930432841182,
+              1866062.681616522372,
+              0,
+              null
+            ],
+            [
+              1029926.713916175067,
+              1866062.681616522372,
+              0,
+              null
+            ]
+          ]
+        ],
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {}
+    },
+    {
+      "id": 29,
+      "containerID": 0,
+      "assocSourceID": 0,
+      "assocGlobalID": "{34D3F807-80DD-4593-8B17-553C62A6026F}",
+      "userType": 3,
+      "fromID": 5,
+      "toID": 7,
+      "geometry": {
+        "hasZ": true,
+        "hasM": true,
+        "paths": [
+          [
+            [
+              1029926.713916175067,
+              1866062.681616522372,
+              0,
+              null
+            ],
+            [
+              1030120.748961176723,
+              1865415.8984612748,
+              0,
+              null
+            ],
+            [
+              1030573.497399509,
+              1865415.8984612748,
+              0,
+              null
+            ]
+          ]
+        ],
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {}
+    },
+    {
+      "id": 30,
+      "containerID": 0,
+      "assocSourceID": 0,
+      "assocGlobalID": "{4F2E3AC5-C3BD-4D32-9650-9FE0CD6B6CA0}",
+      "userType": 3,
+      "fromID": 7,
+      "toID": 8,
+      "geometry": {
+        "hasZ": true,
+        "hasM": true,
+        "paths": [
+          [
+            [
+              1030573.497399509,
+              1865415.8984612748,
+              0,
+              null
+            ],
+            [
+              1031220.280554760247,
+              1865415.8984612748,
+              0,
+              null
+            ]
+          ]
+        ],
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {}
+    },
+    {
+      "id": 31,
+      "containerID": 0,
+      "assocSourceID": 0,
+      "assocGlobalID": "{40B46018-C162-4ED4-B0F6-A475D9E01A6A}",
+      "userType": 3,
+      "fromID": 8,
+      "toID": 9,
+      "geometry": {
+        "hasZ": true,
+        "hasM": true,
+        "paths": [
+          [
+            [
+              1031220.280554760247,
+              1865415.8984612748,
+              0,
+              null
+            ],
+            [
+              1031867.064038094133,
+              1865415.8984612748,
+              0,
+              null
+            ]
+          ]
+        ],
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {}
+    },
+    {
+      "id": 32,
+      "containerID": 0,
+      "assocSourceID": 0,
+      "assocGlobalID": "{48C5AFF3-C111-4ED2-B2B0-1C19C4FB4FCB}",
+      "userType": 3,
+      "fromID": 11,
+      "toID": 9,
+      "geometry": {
+        "hasZ": true,
+        "hasM": true,
+        "paths": [
+          [
+            [
+              1032513.847521424294,
+              1864769.114977940917,
+              0,
+              null
+            ],
+            [
+              1032061.099083092064,
+              1864769.114977940917,
+              0,
+              null
+            ],
+            [
+              1031867.064038094133,
+              1865415.8984612748,
+              0,
+              null
+            ]
+          ]
+        ],
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {}
+    },
+    {
+      "id": 33,
+      "containerID": 0,
+      "assocSourceID": 0,
+      "assocGlobalID": "{57F82CC4-64E2-4E6D-8663-08E3CBB960B4}",
+      "userType": 3,
+      "fromID": 9,
+      "toID": 10,
+      "geometry": {
+        "hasZ": true,
+        "hasM": true,
+        "paths": [
+          [
+            [
+              1031867.064038094133,
+              1865415.8984612748,
+              0,
+              null
+            ],
+            [
+              1032513.847521424294,
+              1865415.8984612748,
+              0,
+              null
+            ]
+          ]
+        ],
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {}
+    },
+    {
+      "id": 34,
+      "containerID": 0,
+      "assocSourceID": 0,
+      "assocGlobalID": "{E48AC91A-F48A-49FD-A474-3EA17FF8021C}",
+      "userType": 3,
+      "fromID": 10,
+      "toID": 14,
+      "geometry": {
+        "hasZ": true,
+        "hasM": true,
+        "paths": [
+          [
+            [
+              1032513.847521424294,
+              1865415.8984612748,
+              0,
+              null
+            ],
+            [
+              1033160.630676675588,
+              1865415.8984612748,
+              0,
+              null
+            ]
+          ]
+        ],
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {}
+    },
+    {
+      "id": 35,
+      "containerID": 0,
+      "assocSourceID": 0,
+      "assocGlobalID": "{E309AFF8-FED4-463C-BCC3-9716A86476B8}",
+      "userType": 3,
+      "fromID": 13,
+      "toID": 6,
+      "geometry": {
+        "hasZ": true,
+        "hasM": true,
+        "paths": [
+          [
+            [
+              1031220.280554760247,
+              1866062.681616522372,
+              0,
+              null
+            ],
+            [
+              1030573.497399509,
+              1866062.681616522372,
+              0,
+              null
+            ]
+          ]
+        ],
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {}
+    },
+    {
+      "id": 37,
+      "containerID": 0,
+      "assocSourceID": 0,
+      "assocGlobalID": "{1EF769B7-ED85-4A4A-BD1D-297336357BB0}",
+      "userType": 3,
+      "fromID": 14,
+      "toID": 15,
+      "geometry": {
+        "hasZ": true,
+        "hasM": true,
+        "paths": [
+          [
+            [
+              1033160.630676675588,
+              1865415.8984612748,
+              0,
+              null
+            ],
+            [
+              1033807.414160009474,
+              1865415.8984612748,
+              0,
+              null
+            ]
+          ]
+        ],
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {}
+    },
+    {
+      "id": 38,
+      "containerID": 0,
+      "assocSourceID": 0,
+      "assocGlobalID": "{160BB47F-C4A4-40F1-963E-57B52B52BF9E}",
+      "userType": 3,
+      "fromID": 15,
+      "toID": 19,
+      "geometry": {
+        "hasZ": true,
+        "hasM": true,
+        "paths": [
+          [
+            [
+              1033807.414160009474,
+              1865415.8984612748,
+              0,
+              null
+            ],
+            [
+              1033354.665721677244,
+              1865415.8984612748,
+              0,
+              null
+            ],
+            [
+              1033160.630676675588,
+              1866062.681616522372,
+              0,
+              null
+            ]
+          ]
+        ],
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {}
+    },
+    {
+      "id": 40,
+      "containerID": 0,
+      "assocSourceID": 0,
+      "assocGlobalID": "{587904D0-C231-4D59-A782-C7F6FD146592}",
+      "userType": 3,
+      "fromID": 17,
+      "toID": 18,
+      "geometry": {
+        "hasZ": true,
+        "hasM": true,
+        "paths": [
+          [
+            [
+              1031867.064038094133,
+              1866062.681616522372,
+              0,
+              null
+            ],
+            [
+              1032061.099083092064,
+              1866709.465099856257,
+              0,
+              null
+            ],
+            [
+              1032513.847521424294,
+              1866709.465099856257,
+              0,
+              null
+            ]
+          ]
+        ],
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {}
+    },
+    {
+      "id": 41,
+      "containerID": 0,
+      "assocSourceID": 0,
+      "assocGlobalID": "{56738135-86B0-45FC-872E-B6AC8DC98755}",
+      "userType": 3,
+      "fromID": 19,
+      "toID": 16,
+      "geometry": {
+        "hasZ": true,
+        "hasM": true,
+        "paths": [
+          [
+            [
+              1033160.630676675588,
+              1866062.681616522372,
+              0,
+              null
+            ],
+            [
+              1032513.847521424294,
+              1866062.681616522372,
+              0,
+              null
+            ]
+          ]
+        ],
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {}
+    },
+    {
+      "id": 42,
+      "containerID": 0,
+      "assocSourceID": 0,
+      "assocGlobalID": "{7E93295C-C935-4B1F-9935-D6F36447C696}",
+      "userType": 3,
+      "fromID": 19,
+      "toID": 20,
+      "geometry": {
+        "hasZ": true,
+        "hasM": true,
+        "paths": [
+          [
+            [
+              1033160.630676675588,
+              1866062.681616522372,
+              0,
+              null
+            ],
+            [
+              1033807.414160009474,
+              1866062.681616522372,
+              0,
+              null
+            ]
+          ]
+        ],
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {}
+    },
+    {
+      "id": 43,
+      "containerID": 0,
+      "assocSourceID": 0,
+      "assocGlobalID": "{F6F37EC3-57A8-48BB-8130-2B90A6FE6FD9}",
+      "userType": 3,
+      "fromID": 22,
+      "toID": 21,
+      "geometry": {
+        "hasZ": true,
+        "hasM": true,
+        "paths": [
+          [
+            [
+              1035100.980798590928,
+              1865415.8984612748,
+              0,
+              null
+            ],
+            [
+              1034648.2323602587,
+              1865415.8984612748,
+              0,
+              null
+            ],
+            [
+              1034454.197315260768,
+              1866062.681616522372,
+              0,
+              null
+            ]
+          ]
+        ],
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {}
+    },
+    {
+      "id": 44,
+      "containerID": 0,
+      "assocSourceID": 0,
+      "assocGlobalID": "{9FB56B78-E4ED-4006-881D-DA4F01B314C3}",
+      "userType": 3,
+      "fromID": 23,
+      "toID": 21,
+      "geometry": {
+        "hasZ": true,
+        "hasM": true,
+        "paths": [
+          [
+            [
+              1035100.980798590928,
+              1866062.681616522372,
+              0,
+              null
+            ],
+            [
+              1034454.197315260768,
+              1866062.681616522372,
+              0,
+              null
+            ]
+          ]
+        ],
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {}
+    },
+    {
+      "id": 45,
+      "containerID": 0,
+      "assocSourceID": 0,
+      "assocGlobalID": "{7E93295C-C935-4B1F-9935-D6F36447C696}",
+      "userType": 3,
+      "fromID": 20,
+      "toID": 21,
+      "geometry": {
+        "hasZ": true,
+        "hasM": true,
+        "paths": [
+          [
+            [
+              1033807.414160009474,
+              1866062.681616522372,
+              0,
+              null
+            ],
+            [
+              1034454.197315260768,
+              1866062.681616522372,
+              0,
+              null
+            ]
+          ]
+        ],
+        "spatialReference": {
+          "wkid": 102671,
+          "latestWkid": 3435,
+          "vcsWkid": 105703,
+          "latestVcsWkid": 6360
+        }
+      },
+      "attributes": {}
+    }
+  ]
+}

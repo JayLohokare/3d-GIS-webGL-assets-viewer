@@ -1,0 +1,12 @@
+{
+  "version": "2.0",
+  "functions": [ "Health", "Models", "ModelFiles", "ModelsViewer" ],
+  "logging": {
+    "applicationInsights": {
+      "samplingExcludedTypes": "Request",
+      "samplingSettings": {
+        "isEnabled": true
+      }
+    }
+  }
+}

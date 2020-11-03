@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/pages/gem002492/epng-am-poc/static/js/main.de9dd0e6.chunk.js",
+    "main.js.map": "/pages/gem002492/epng-am-poc/static/js/main.de9dd0e6.chunk.js.map",
+    "runtime-main.js": "/pages/gem002492/epng-am-poc/static/js/runtime-main.37905550.js",
+    "runtime-main.js.map": "/pages/gem002492/epng-am-poc/static/js/runtime-main.37905550.js.map",
+    "static/js/2.c6d57b8a.chunk.js": "/pages/gem002492/epng-am-poc/static/js/2.c6d57b8a.chunk.js",
+    "static/js/2.c6d57b8a.chunk.js.map": "/pages/gem002492/epng-am-poc/static/js/2.c6d57b8a.chunk.js.map",
+    "index.html": "/pages/gem002492/epng-am-poc/index.html",
+    "precache-manifest.c56736a0a185d6e0db030fa6be3e5948.js": "/pages/gem002492/epng-am-poc/precache-manifest.c56736a0a185d6e0db030fa6be3e5948.js",
+    "service-worker.js": "/pages/gem002492/epng-am-poc/service-worker.js",
+    "static/js/2.c6d57b8a.chunk.js.LICENSE.txt": "/pages/gem002492/epng-am-poc/static/js/2.c6d57b8a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37905550.js",
+    "static/js/2.c6d57b8a.chunk.js",
+    "static/js/main.de9dd0e6.chunk.js"
+  ]
+}

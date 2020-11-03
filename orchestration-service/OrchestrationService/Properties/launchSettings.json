@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "OrchestrationService": {
+      "commandName": "Project",
+      "commandLineArgs": "host start --port 7072"
+    }
+  }
+}

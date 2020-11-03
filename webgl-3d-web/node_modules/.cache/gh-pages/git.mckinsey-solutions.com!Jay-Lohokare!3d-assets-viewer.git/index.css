@@ -1,0 +1,308 @@
+
+.select-wrapper input.select-dropdown {
+  border-bottom: 0px transparent;
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+
+  body{
+    height: 100vh;
+  }
+
+  .modelViewerContainer{
+    position: fixed;
+    z-index: 5;
+    height: 100%;
+    width: 100%;
+  }
+
+  .mapContainer{
+    position: fixed;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  .refresh-button{
+    position: absolute;
+    margin: 20px auto;
+    bottom: 110px;
+    right: 30px;
+  }
+
+  .layers-button{
+    position: absolute;
+    margin: 20px auto;
+    bottom: 250px;
+    right: 30px;
+  }
+
+  .street-view-button{
+    position: absolute;
+    margin: 20px auto;
+    bottom: 180px;
+    right: 30px;
+  }
+
+  .dataOverLay{
+    position: absolute;
+    left: 0%;
+    padding: 0px;
+    top: calc(100% - 100px);
+    height: auto;
+    width:100%;
+    z-index: 0;
+    overflow: hidden;
+  }
+
+  label {
+    /* display: inline-block; */
+    width: 140px;
+  }
+
+}
+
+@media only screen and (min-width : 993px) {
+  header, main, footer {
+    padding-left: 300px;
+    width: calc("100vw - 300px");
+  }
+
+  body{
+    height: 100vh;
+    width: calc("100vw - 300px");
+    left: 300px;
+  }
+
+  .modelViewerContainer{
+    position: fixed;
+    height: 100vh;
+    width: calc(100vw - 300px);
+    left: 300px;
+    z-index: 5;
+  }
+
+  .mapContainer{
+    position: fixed;
+    height: 100vh;
+    width: calc(100vw - 300px);
+    left: 300px;
+    padding-left: 300px;
+  }
+
+  .dataOverLay{
+    position: absolute;
+    padding: 0px;
+    top: 0px;
+    left: calc(100% - 310px);
+    height: 200px;
+    width: 300px;
+    z-index: 0;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    color: #6b6b76;
+    overflow: scroll;
+  }
+
+  .refresh-button{
+    position: fixed;
+    top: calc(100% - 140px);
+    left: calc(100% - 80px);
+  }
+
+  .street-view-button{
+    position: fixed;
+    top: calc(100% - 210px);
+    left: calc(100% - 80px);
+  }
+
+  .layers-button{
+    position: fixed;
+    top: calc(100% - 280px);
+    left: calc(100% - 80px);
+  }
+
+
+  label {
+    /* display: inline-block; */
+    width: 200px;
+  }
+
+  input {
+    margin-left: 20px;
+    /* display: inline-block; */
+  }
+
+}
+
+.menu-icon{
+  padding: 10px;
+  z-index: 10;
+}
+
+.menu-card{
+  width: 100%;
+  height: auto;
+  margin:  1px;
+}
+
+.assets-list-view{
+  margin-top:10px;
+  height: auto;
+  overflow: auto;
+  margin-bottom: 100px;
+}
+
+
+.modelsView{
+  position: absolute;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.modelsView-header{
+  color : white;
+  margin-bottom: 10px;
+}
+
+.mobileMenu{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+}
+
+.search-filters-list{
+  margin-top: -20px;
+}
+
+.date-filter{
+  height: 200px;
+  width: 130px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top:30px;
+  margin-top: 30px;
+  vertical-align: middle;
+  align-items: center
+  /* margin-top: -20px; */
+}
+
+.input-field input[type=text]:focus + label, .materialize-textarea:focus:not([readonly]) + label {
+  border-bottom: 0px solid #ffffff !important;
+  box-shadow: 0 0px 0 0 #ffffff !important;
+  color: #ffffff !important;
+}
+
+.input-field input[type=text]:focus,
+.input-field input[type=date]:focus,
+.input-field input[type]:focus:not([readonly]),
+.input-field input[type]:not([readonly]),
+.input-field input[type]:focus:not([readonly]),
+.input-field textarea:not([readonly]),
+.input-field textarea:focus:not([readonly]),
+.materialize-textarea:focus:not([readonly]) {
+  border-bottom:0px solid #ffffff !important;
+  box-shadow: 0 0px 0 0 #ffffff !important;
+  outline: none;
+ }
+
+.model-loading-bar{
+  position: fixed;
+  z-index: 15;
+  top: -5px;
+}
+
+.card-scroll{
+  height: auto;
+  overflow: auto;
+}
+
+.search-box{
+  height: 50px;
+}
+
+
+.select-dropdown{
+  color: #ffffff;
+}
+
+.padding-5px{
+  padding: 5px;
+}
+
+
+.filter-chip{
+  min-width: 130px;
+  width: auto;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: -30px;
+}
+
+.menu-header{
+  height:  80px;
+  text-align: center;
+  padding-left: 20px;
+}
+
+.filter-chip-content{
+  height: 200px;
+  margin-top: 5px;
+  margin-top: -5px;
+  border-bottom: 0px transparent;
+}
+
+
+.color-picker{
+
+  left: 50px
+}
+
+.control-panel-layer{
+  width: 100%;
+}
+
+.layers-modal-header {
+  height:100px;
+  width: 100%;
+  padding-top: 40px;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+
+.right-align{
+  padding-right: -40px;
+}
+
+.row {
+  margin-bottom: 0px;
+}
+
+.search-container{
+  margin-bottom: 20px;
+}
+
+.data-view-container{
+  padding: 5px;
+}
+
+.data-view-card{
+  margin-top: 10px;
+  height: calc(100% - 400px);
+}
+
+.fullScreen{
+  width: 100%;
+  height: 100%;
+}

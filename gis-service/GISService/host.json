@@ -1,0 +1,12 @@
+{
+  "version": "2.0",
+  "functions": [ "Health", "GISFunction", "HttpGISFunction" ],
+  "logging": {
+    "applicationInsights": {
+      "samplingExcludedTypes": "Request",
+      "samplingSettings": {
+        "isEnabled": true
+      }
+    }
+  }
+}
